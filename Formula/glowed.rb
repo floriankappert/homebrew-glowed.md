@@ -1,9 +1,9 @@
 class Glowed < Formula
   desc "Ghostty-oriented terminal TUI Markdown browser/editor"
   homepage "https://github.com/floriankappert/glowed.md"
-  url "https://github.com/floriankappert/glowed.md/archive/refs/tags/v0.2.2-floriankappert.14.tar.gz"
-  version "0.2.2-floriankappert.14"
-  sha256 "300557141ef692a23172a3d8cc90b64cbc108b5019b1ad08d950a7514dcc8baa"
+  url "https://github.com/floriankappert/glowed.md/archive/refs/tags/v0.2.2-floriankappert.15.tar.gz"
+  version "0.2.2-floriankappert.15"
+  sha256 "cbe8e79bce5b73aae56fa0668d464cdd153462f4c9e772aebbfa047e772179bd"
   license "MIT"
 
   depends_on "go" => :build
