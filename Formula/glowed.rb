@@ -1,9 +1,9 @@
 class Glowed < Formula
   desc "Ghostty-oriented terminal TUI Markdown browser/editor"
-  homepage "https://github.com/floriankappert/glowed"
-  url "https://github.com/floriankappert/glowed/archive/refs/tags/v0.2.2-floriankappert.3.tar.gz"
-  version "0.2.2-floriankappert.3"
-  sha256 "b2381577489290eeee878b452c69f2d57618ecf7a0a3a9d7421d685fc32dff2b"
+  homepage "https://github.com/floriankappert/glowed.md"
+  url "https://github.com/floriankappert/glowed.md/archive/refs/tags/v0.2.2-floriankappert.4.tar.gz"
+  version "0.2.2-floriankappert.4"
+  sha256 "40ad797f854d654a796621af04d52802a341edfed2e5d76c75de2b0c4b317435"
   license "MIT"
 
   depends_on "go" => :build
@@ -13,6 +13,6 @@ class Glowed < Formula
   end
 
   test do
-    assert_match "glowed #{version}", shell_output("#{bin}/glowed --version")
+    assert_match "glowed.md #{version}", shell_output("#{bin}/glowed --version")
   end
 end
