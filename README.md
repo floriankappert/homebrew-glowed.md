@@ -1,4 +1,4 @@
-# homebrew-tap
+# Glowed.md
 
 Homebrew tap for Florian Kappert's builds.
 
